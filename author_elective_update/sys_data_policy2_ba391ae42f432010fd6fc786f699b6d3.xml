@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2">
+    <sys_data_policy2 action="DELETE">
+        <active>false</active>
+        <apply_import_set>true</apply_import_set>
+        <apply_soap>true</apply_soap>
+        <conditions table="x_58872_needit_needit">state=8^EQ<item display_value="Withdrawn" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="8"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <enforce_ui>true</enforce_ui>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table>x_58872_needit_needit</model_table>
+        <reverse_if_false>true</reverse_if_false>
+        <short_description>NeedIt State set to Withdrawn</short_description>
+        <sys_class_name>sys_data_policy2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-19 07:01:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ba391ae42f432010fd6fc786f699b6d3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>NeedIt State set to Withdrawn</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_data_policy2_ba391ae42f432010fd6fc786f699b6d3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-19 07:15:37</sys_updated_on>
+    </sys_data_policy2>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>ade883dd6f13f90023b2a9cc5d3ee423</instance_id>
+        <instance_name>dev14627</instance_name>
+        <name>sys_data_policy2_ba391ae42f432010fd6fc786f699b6d3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2"><sys_data_policy2 action="INSERT_OR_UPDATE"><active>false</active><apply_import_set>true</apply_import_set><apply_soap>true</apply_soap><conditions table="x_58872_needit_needit">state=8^EQ<item display_value="Withdrawn" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="8"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></conditions><description/><enforce_ui>true</enforce_ui><inherit>false</inherit><model_id/><model_table>x_58872_needit_needit</model_table><reverse_if_false>true</reverse_if_false><short_description>NeedIt State set to Withdrawn</short_description><sys_class_name>sys_data_policy2</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-19 07:01:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ba391ae42f432010fd6fc786f699b6d3</sys_id><sys_mod_count>3</sys_mod_count><sys_name>NeedIt State set to Withdrawn</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_data_policy2_ba391ae42f432010fd6fc786f699b6d3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-19 07:15:37</sys_updated_on></sys_data_policy2></record_update>]]></payload>
+        <payload_hash>403070155</payload_hash>
+        <record_name>NeedIt State set to Withdrawn</record_name>
+        <reverted_from/>
+        <source>7c3ed6a72f322010fd6fc786f699b662</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-19 07:15:37</sys_created_on>
+        <sys_id>e8ddd2e82f432010fd6fc786f699b677</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1784956ee070000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-19 07:15:37</sys_updated_on>
+        <type>Data Policy</type>
+        <update_guid>e0ddd2e873432010d48be7cada8cf277</update_guid>
+        <update_guid_history>e0ddd2e873432010d48be7cada8cf277:403070155,c50d5aa868432010b3220cbb8316762a:-1686569236,240b5e28a943201005cde496c624d6ad:427587047,5c9ada2832432010fcad31b954ecbe0a:-1753533533</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-19 07:19:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_data_policy2">sys_data_policy2</sys_db_object>
+        <sys_id>4f397af6926b469cafbdba536d40ec44</sys_id>
+        <sys_metadata>ba391ae42f432010fd6fc786f699b6d3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt State set to Withdrawn</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="NeedIt">ec509beb2ff22010fd6fc786f699b6a1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_data_policy2_ba391ae42f432010fd6fc786f699b6d3</sys_update_name>
+        <sys_update_version display_value="sys_data_policy2_ba391ae42f432010fd6fc786f699b6d3">e8ddd2e82f432010fd6fc786f699b677</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-19 07:19:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
